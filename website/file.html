@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Подключаем слайдер-->
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <script src="slick/slick.min.js"></script>
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+</head>
+<body>
+  <main class="main">
+    <div class="container">
+      <header class="header">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <div class="logo">
+              <i class="fas fa-cat"></i>
+            </div>
+          </div>
+          <div class="col-xs-12 offset-xs-0 col-sm-6 offset-sm-0 col-md-4 offset-md-1 col-lg-2 offset-lg-4">
+            <div class="phone-block">
+              <a class="phone-link" href="#">+7 000 000 00</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <div class="wrap">
+              <div class="wrap-block">
+                <button class="button header-btn popup-btn"> Get consultation</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="main-content">
+        <div class="row">
+          <div class="col-sm-12 col-md-7 col-lg-6">
+            <div class="main-title">
+              <h1>Loremipsumdolor sitamet consectetur</h1>
+              <p class="main-subtitle">Lorem ipsum dolor <br /> sit amet consectetur</p>
+              <span class="box wow tada" data-wow-delay="1s">Lorem ipsum <br />dol <strong>300</strong> sitamet</span>
+              <strong class="main-trigger"> Payment in fact</strong>
+            </div>
+          </div>
+          <div class="col-sm-8 offset-sm-2 col-md-5 offset-md-0 col-lg-4 offset-lg-2">
+            <div class="main-form">
+              <h2 class="main-form-header">To calculate the exact cost,<br />order <strong>the departure measurer</strong></h2>
+              <form class="form" action="#">
+                <label for="#">Your name</label>
+                <input class="form-input" type="text">
+                <label for="#">Number of phone</label>
+                <input class="form-input" type="text">
+                <button class="form-btn button" type="submit">Leave the application</button>
+                <small>Gift on the day of treatment</small>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="features">
+    <div class="container">
+      <h2 class="section-header">
+        Features to work with us
+      </h2>
+      <div class="features-slider">
+        <div class="features-block">
+          <div class="features-img">
+            <picture>
+              <source srcset="img/features/graph.svg" type="image/">
+              <img src="img/features/icon.png" alt="Pay in fact">
+            </picture>
+          </div>
+          <h3>Pay in fact</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ratione, dolorem a, quaerat iste rem
+            beatae vel harum obcaecati nihil dolorum eligendi quis veritatis vero molestias quae amet. Nisi, saepe?</p>
+        </div>
+        <div class="features-block">
+          <div class="features-img">
+            <picture>
+              <source srcset="img/features/graph.svg" type="image/">
+              <img src="img/features/icon.png" alt="Contract">
+            </picture>
+          </div>
+          <h3>contract</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur molestias quis iusto culpa alias,
+            necessitatibus quae ipsa molestiae quos provident eius corporis suscipit, corrupti dolor architecto quaerat
+            sunt repudiandae perspiciatis!</p>
+        </div>
+        <div class="features-block">
+          <div class="features-img">
+            <picture>
+              <source srcset="img/features/graph.svg" type="image/">
+              <img src="img/features/icon.png" alt="Exactly in term">
+            </picture>
+          </div>
+          <h3>Axactly in term</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nam minus quibusdam similique facilis
+            quia? Sunt excepturi veritatis iusto nesciunt? Quae suscipit autem ipsum accusantium, porro pariatur
+            consequatur eos a.</p>
+        </div>
+        <div class="features-block">
+          <div class="features-img">
+            <picture>
+              <source srcset="img/features/graph.svg" type="image/">
+              <img src="img/features/icon.png" alt="Save money">
+            </picture>
+          </div>
+          <h3>Save money</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, labore magni veritatis ipsum quos
+            architecto accusamus nobis ullam dolor voluptatum voluptas aut nesciunt. Error sint labore odit, harum
+            porro autem?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="price">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 offset-md-4">
+          <div class="section-header section-header_light">
+            <h2>Prices</h2>
+            <p>Choose the variant, fit you</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="price-button">
+            <button class="button price-header-btn" data-toggle="modal">To count price</button>
+          </div>
+        </div>
+      </div> <!-- row ends-->
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2 col-md-4 offset-md-0">
+          <div class="price-block">
+            <h4>Lorem, ipsum.</h4>
+            <img src="img/balloons.jpg" alt="image">
+            <span class="price-tag">from 300 RUR/m</span>
+            <ul class="price-list">
+              <li><i class="fas fa-check"></i> Lorem.</li>
+              <li><i class="fas fa-check"></i> Lorem.</li>
+            </ul>
+            <button class="button">Order</button>
+          </div>
+        </div>
+        <div class="col-sm-8 offset-sm-2 col-md-4 offset-md-0">
+          <div class="price-block">
+            <h4>Lorem, ipsum dolor.</h4>
+            <img src="img/balloons.jpg" alt="image">
+            <span class="price-tag"> from 530 RUR/m</span>
+            <ul class="price-list">
+              <li><i class="fas fa-check"></i>Lorem, ipsum.</li>
+              <li><i class="fas fa-check"></i>Lorem, ipsum.</li>
+              <li><i class="fas fa-check"></i>Lorem</li>
+              <li><i class="fas fa-check"></i>Guarantee 2 years</li>
+            </ul>
+            <button class="button">Order</button>
+          </div>
+        </div>
+        <div class="col-sm-8 offset-sm-2 col-md-4 offset-md-0">
+          <div class="price-block">
+            <h4>Lorem, ipsum dolor.</h4>
+            <img src="img/balloons.jpg" alt="image">
+            <span class="price-tag"> from 560 RUR/m</span>
+            <ul class="price-list">
+              <li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet.</li>
+              <li><i class="fas fa-check"></i>Lorem, ipsum.</li>
+              <li><i class="fas fa-check"></i>Lorem.</li>
+              <li><i class="fas fa-check"></i>Guarantee 2 years</li>
+              <li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet.</li>
+            </ul>
+            <button class="button">Order</button>
+          </div>
+        </div>
+      </div> <!-- row ends-->
+    </div>
+  </section>
+
+  <section class="feedback">
+    <div class="container">
+      <div class="section-header">
+        <h2>Feedback</h2>
+      </div>
+      <div class="feedback-slider">
+        <div class="feedback-slider-item">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="fotorama" data-nav="thumbs">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <p>Object: Moskow, Nahimovskiy prosp. 10  </p>
+              <p>Square: <strong>357 m<sup>2</sup></strong></p>
+              <p>Made for: <strong>10 days</strong></p>
+              <p>Cost: <strong>550 RUR for m<sup>2</sup></strong></p>
+              <p>Features: <strong>Lorem ipsum dolor sit amet consectetur adipisicing.</strong></p>
+              <div class="media">
+                <div class="media-left">
+                  <img src="img/client1.jpeg" class="media-object" alt="...">
+                </div>
+                <div class="media-body">
+                  <span>Orderer</span>
+                  <h5 class="media-heading">Nahimov Artem</h5>
+                </div>
+              </div>
+              <div class="feedback-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eos facilis aspernatur excepturi nulla
+                  eum commodi ea fugiat, distinctio aperiam quis ipsum velit dolores nisi magnam repudiandae!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feedback-slider-item">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="fotorama" data-nav="thumbs">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <p>Object: Moskow, Nahimovskiy prosp. 10  </p>
+              <p>Square: <strong>357 m<sup>2</sup></strong></p>
+              <p>Made for: <strong>10 days</strong></p>
+              <p>Cost: <strong>550 RUR for m<sup>2</sup></strong></p>
+              <p>Features: <strong>Lorem ipsum dolor sit amet consectetur adipisicing.</strong></p>
+              <div class="media">
+                <div class="media-left">
+                  <img src="img/client1.jpeg" class="media-object" alt="...">
+                </div>
+                <div class="media-body">
+                  <span>Orderer</span>
+                  <h5 class="media-heading">Nahimov Artem</h5>
+                </div>
+              </div>
+              <div class="feedback-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eos facilis aspernatur excepturi nulla
+                  eum commodi ea fugiat, distinctio aperiam quis ipsum velit dolores nisi magnam repudiandae!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feedback-slider-item">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="fotorama" data-nav="thumbs">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+                <img src="img/balloons.jpg" alt="balloons">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <p>Object: Moskow, Nahimovskiy prosp. 10  </p>
+              <p>Square: <strong>357 m<sup>2</sup></strong></p>
+              <p>Made for: <strong>10 days</strong></p>
+              <p>Cost: <strong>550 RUR for m<sup>2</sup></strong></p>
+              <p>Features: <strong>Lorem ipsum dolor sit amet consectetur adipisicing.</strong></p>
+              <div class="media">
+                <div class="media-left">
+                  <img src="img/client1.jpeg" class="media-object" alt="...">
+                </div>
+                <div class="media-body">
+                  <span>Orderer</span>
+                  <h5 class="media-heading">Nahimov Artem</h5>
+                </div>
+              </div>
+              <div class="feedback-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eos facilis aspernatur excepturi nulla
+                  eum commodi ea fugiat, distinctio aperiam quis ipsum velit dolores nisi magnam repudiandae!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- заканчивается слайдер-->
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="feedback-form">
+            <h3>Do you want the same? Leave your contacts</h3>
+            <form class="form" action="#">
+              <div class="row">
+                <div class="col-md-6">
+                  <label for="#">Your name</label>
+                  <input class="form-input" type="text">
+                </div>
+                <div class="col-md-6">
+                  <label for="#">Number</label>
+                  <input class="form-input" type="text">
+                </div>
+              </div>
+              <button class="form-btn feedback-btn button type=" submit>Leave the application</button>
+            </form>
+          </div> <!-- end feedback-form-->
+        </div> <!-- col-md-8 -->
+      </div> <!-- row -->
+    </div> <!-- container-->
+  </section>
+
+  <section class="scheme">
+    <div class="container">
+      <div class="section-header">
+        <h2>Work scheme</h2>
+        <p> Work on your object will be include next steps:</p>
+      </div>
+      <div class="row">
+        <div class="col-xs-8 offset-sm-2 col-sm-4 offset-sm-1 col-md-3 offset-md-1">
+          <div class="scheme-block">
+            <img src="img/icon8.png" alt="icon">
+            <h3>Application</h3>
+            <p>Leave online application or call +7 000 00 00</p>
+          </div>
+        </div>
+        <div class="col-xs-8 offset-sm-2 col-sm-4 offset-sm-1 col-md-3 offset-md-1">
+          <div class="scheme-block">
+            <img src="img/icon8.png" alt="icon">
+            <h3>Departure of specialist</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic earum, rem dolor numquam adipisci quos.</p>
+          </div>
+        </div>
+        <div class="col-xs-8 offset-sm-2 col-sm-4 offset-sm-1 col-md-3 offset-md-1">
+          <div class="scheme-block">
+            <img src="img/icon8.png" alt="icon">
+            <h3>Preparation of contract.</h3>
+            <p>We prepare the contract and agree with you.</p>
+          </div>
+        </div>
+        <div class="col-xs-8 offset-sm-2 col-sm-4 offset-sm-1 col-md-3 offset-md-1">
+          <div class="scheme-block">
+            <img src="img/icon8.png" alt="icon">
+            <h3>Start work</h3>
+            <p>We deliver materials, equipment, sign a contract and begin work.</p>
+          </div>
+        </div>
+        <div class="col-xs-8 offset-sm-2 col-sm-4 offset-sm-1 col-md-3 offset-md-1">
+          <div class="scheme-block">
+            <img src="img/icon8.png" alt="icon">
+            <h3>Completion of work.</h3>
+            <p>After completion of the work you check the quality and sign the act of delivery, make payment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="all-inclusive">
+    <div class="container">
+      <div class="section-header section-header_active">
+        <h2>All inclusive 100%!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="media">
+            <div class="media-left">
+              <span class="circle-border">
+                <span class="circle">1.</span>
+              </span>
+            </div>
+            <div class="media-body">
+              <h4>Title</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+        </div> <!-- col-md-3-->
+        <div class="col-md-3">
+          <div class="media">
+            <div class="media-left">
+              <span class="circle-border">
+                <span class="circle">2.</span>
+              </span>
+            </div>
+            <div class="media-body">
+              <h4>Title</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div> <!-- col-md-3-->
+        <div class="col-md-3">
+          <div class="media">
+            <div class="media-left">
+              <span class="circle-border">
+                <span class="circle">3.</span>
+              </span>
+            </div>
+            <div class="media-body">
+              <h4>Title</h4>
+              <p>Lorem, ipsum.</p>
+            </div>
+          </div>
+        </div> <!-- col-md-3-->
+        <div class="col-md-3">
+          <div class="media">
+            <div class="media-left">
+              <span class="circle-border">
+                <span class="circle">4.</span>
+              </span>
+            </div>
+            <div class="media-body">
+              <h4>Title</h4>
+              <p>Lorem, ipsum.</p>
+            </div>
+          </div>
+        </div> <!-- col-md-3-->
+        <div class="col-md-3">
+          <div class="media">
+            <div class="media-left">
+              <span class="circle-border">
+                <span class="circle">5.</span>
+              </span>
+            </div>
+            <div class="media-body">
+              <h4>Title</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+        </div> <!-- col-md-3-->
+        <div class="col-md-3">
+          <div class="media">
+            <div class="media-left">
+              <span class="circle-border">
+                <span class="circle">6.</span>
+              </span>
+            </div>
+            <div class="media-body">
+              <h4>Title</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+        </div> <!-- col-md-3-->
+        <div class="col-md-3">
+          <div class="media">
+            <div class="media-left">
+              <span class="circle-border">
+                <span class="circle">7.</span>
+              </span>
+            </div>
+            <div class="media-body">
+              <h4>Title</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+        </div> <!-- col-md-3-->
+        <div class="col-md-3">
+          <div class="media">
+            <div class="media-left">
+              <span class="circle-border">
+                <span class="circle">8.</span>
+              </span>
+            </div>
+            <div class="media-body">
+              <h4>Title</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+        </div> <!-- col-md-3-->
+      </div>
+    </div>
+  </section>
+
+  <section class="problems">
+    <div class="container">
+      <div class="section-header">
+        <h2>We will dispel all fears</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <div class="problems-list problems-list-bad">
+            <h4>What could be the problem?</h4>
+            <ul>
+              <li>Lorem ipsum dolor sit.</li>
+              <li>Lorem ipsum dolor sit.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-5 offset-md-2">
+          <div class="problems-list problems-list-good">
+            <h4>Our resolution</h4>
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, molestias.</li>
+              <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, eveniet quos ratione voluptatum?</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet consectetur.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> <!-- container-->
+    <img class="problems-human" src="img/hum.png" alt="human">
+  </section>
+
+  <section class="materials">
+    <div class="container">
+      <div class="section-header">
+        <h2>Materials</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque.</p>
+        <div class="features-slider materials-slider">
+          <div class="features-block">
+            <div class="materials-img">
+              <img src="img/features/icon.png" alt="Pay in fact">
+            </div>
+            <h3>Knauf</h3>
+            <p>MP-75 <strong>245</strong> RUR/m</p>
+            <a class="materials-link" href="#">Certificate</a>
+          </div>
+          <div class="features-block">
+            <div class="materials-img">
+              <img src="img/features/icon.png" alt="Contract">
+            </div>
+            <h3>contract</h3>
+            <p>MP-75 <strong>245</strong> RUR/m</p>
+            <a class="materials-link" href="#">Certificate</a>
+          </div>
+          <div class="features-block">
+            <div class="materials-img">
+              <img src="img/features/icon.png" alt="Exactly in term">
+            </div>
+            <h3>Volma</h3>
+            <p>MP-75 <strong>245</strong> RUR/m<br />
+              MP-75 <strong>245</strong> RUR/m</p>
+            <a class="materials-link" href="#">Certificate</a>
+          </div>
+          <div class="features-block">
+            <div class="materials-img">
+              <img src="img/features/icon.png" alt="Save money">
+            </div>
+            <h3>Save money</h3>
+            <p>MP-75 <strong>245</strong> RUR/m<br />
+              MP-75 <strong>245</strong> RUR/m</p>
+            <a class="materials-link" href="#">Certificate</a>
+          </div>
+        </div>
+        <p class="materials-offer">Lorem ipsum dolor, sit amet consectetur <a class="materials-link" href="#"></a>adipisicing
+          elit. Nostrum, dolores. Incidunt, nesciunt molestias?</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="tour">
+    <div class="container">
+      <div class="main-content">
+        <div class="row">
+          <div class="col-sm-12 col-md-7 col-lg-5">
+            <div class="main-title">
+              <h1>Look how we are working</h1>
+              <p class="main-subtitle tour-subtitle">Lorem ipsum dolor sit amet consectetur</p>
+              <p class="main-subtitle tour-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+                quaerat quae in dolores dicta repellendus sequi sit autem placeat omnis.</p>
+            </div>
+          </div>
+          <div class="col-sm-8 offset-sm-2 col-md-5 offset-md-0 col-lg-4 offset-lg-3 marg">
+            <div class="main-form">
+              <h2 class="main-form-header">To calculate the exact cost,<br />order <strong>the departure measurer</strong></h2>
+              <form class="form" action="#">
+                <label for="#">Your name</label>
+                <input class="form-input" type="text">
+                <label for="#">Number of phone</label>
+                <input class="form-input" type="text">
+                <button class="form-btn button tour-btn" type="submit">to enroll for review</button>
+                <small>pick up nearest object to you</small>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="upsell">
+    <div class="container">
+      <div class="section-header section-header_light">
+        <h2>Additional services</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id!</p>
+      </div>
+      <div class="upsell-blocks">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="upsell-block">
+              <img src="img/balloons.jpg" alt="img">
+              <p>Lorem, ipsum.</p>
+              <button class="button">Prices</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="upsell-block">
+              <img src="img/balloons.jpg" alt="img">
+              <p>Lorem, ipsum dolor.</p>
+              <button class="button">Prices</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="upsell-block">
+              <img src="img/balloons.jpg" alt="img">
+              <p>Lorem, ipsum.</p>
+              <button class="button">Prices</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <h2>Contacts</h2>
+          <p>Office Adress: <br /> Ukraine, Kharkov, Sumskaya str. 12</p>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.8501956893974!2d36.23076631568106!3d49.99541797941521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0e566af3d7b%3A0x693baf1fb433e512!2z0YPQuy4g0KHRg9C80YHQutCw0Y8sIDEyLCDQpdCw0YDRjNC60L7Qsiwg0KXQsNGA0YzQutC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjEwMDA!5e0!3m2!1sru!2sua!4v1551971731037"
+              width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <p>Phone number <br /> <strong>+7 00 0 00000 </strong></p>
+          <p>E-mail:<br /><a class="contacts-link" href="mailto:qwe@gmail.com">mailto:qwe@gmail.com</a></p>
+          <p>Details:<br />INN 2312342323 OKPO 2312414</p>
+        </div>
+        <div class="col-lg-4 offset-lg-2 col-md-6 offset-md-0 col-sm-10 offset-sm-1">
+          <div class="main-form contacts-form">
+            <h2 class="contacts-form-header">Leave your contacts for connection</h2>
+            <form class="form" action="#">
+              <label for="#">Your name</label>
+              <input class="form-input" type="text">
+              <label for="#">Number of phone</label>
+              <input class="form-input" type="text">
+              <label for="#">Email</label>
+              <input class="form-input" type="text">
+              <label for="#">Email</label>
+              <textarea class="form-textarea" rows="5"></textarea>
+              <button class="form-btn button" type="submit">Leave the application</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="logo">
+            <i class="fas fa-cat"></i>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-contacts">
+            <p><strong>+7 00 0 00000</strong></p>
+            <p><a class="footer-contacts-link" href="mailto:qwe@gmail.com">mailto:qwe@gmail.com</a></p>
+            <p class="footer-contacts-link">Monday - Friday from 09:00 til 18:00</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-dev-logo">
+            <p>Development of site</p>
+            <i class="fas fa-cat"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Модальные окна-->
+  <!-- Получить консультацию-->
+  <div class="popup">
+    <div class="popup-dialog">
+      <div class="popup-content">
+        <button class="popup-close">&times;</button>
+        <h4 class="popup-header">
+          Interesting?
+        </h4>
+        <p>Leave your contacts <br /> for connection</p>
+        <div class="main-form popup-form">
+          <form class="form" action="#"></form>
+          <label for="#">Your name</label>
+          <input class="form-input" type="text">
+          <label for="#">Number of phone</label>
+          <input class="form-input" type="text">
+          <label for="#">Message</label>
+          <textarea class="form-input" rows="5"></textarea>
+          <button class="form-btn button" type="submit">Leave the application</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- для подключения анимации при скроле-->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <!-- Подключаем слайдер-->
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <script src="slick/slick.min.js"></script>
+  <!-- fotorama.css & fotorama.js. -->
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+  <!--Инициализируем слайдер-->
+  <script>
+    $(document).ready(function () {
+      $('.popup-btn').on('click', function (event) {
+        event.preventDefault();
+        $('.popup').fadeIn();
+      });
+      $('.popup-close').on('click', function (event) {
+        event.preventDefault();
+        $('.popup').fadeOut();
+      });
+      /*Feedback slider*/
+      $('.feedback-slider').slick({
+        prevArrow: '<button type="button" class="feedback-slider-btn feedback-prev-btn"><img src="img/left.png"></button>',
+        nextArrow: '<button type="button" class="feedback-slider-btn feedback-next-btn"><img src="img/right.png"></button>'
+      });
+      /**/
+      $('.features-slider').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [{
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 2,
+              prevArrow: '<button class="prev arrow"></button>',
+              nextArrow: '<button class="next arrow"></button>',
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              prevArrow: '<button class="prev arrow"></button>',
+              nextArrow: '<button class="next arrow"></button>'
+            }
+          }
+        ]
+      });
+    });
+  </script>
+</body>
+</html>
